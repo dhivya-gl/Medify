@@ -1,0 +1,93 @@
+/* ReservationForm.css */
+.reservation-form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 10px;
+  background-color: #1A1A1A; /* Black background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.reservation-form-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #87CEEB; /* Sky blue */
+}
+
+.reservation-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reservation-form-container input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #4b5e60 Gross ;
+  border-color: #87CEEB; /* Sky blue border */
+  background-color: #1A1A1A; /* Black background */
+  font-size: 1rem;
+  color: #FFFFFF; /* White text */
+}
+
+.reservation-form-container input:focus {
+  outline: none;
+  border-color: #ADD8E6; /* Lighter sky blue on focus */
+  box-shadow: 0 0 5px rgba(135, 206, 235, 0.5);
+}
+
+.reservation-form-container button {
+  background-color: #87CEEB; /* Sky blue */
+  color: #1A1A1A; /* Black text */
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservation-form-container button:hover {
+  background-color: #ADD8E6; /* Lighter sky blue on hover */
+}
+
+.reservation-form-container p {
+  text-align: center;
+  font-weight: 500;
+  color: #FFFFFF; /* White text */
+}
+
+/* ReservationForm.css */
+.date-time-picker {
+  margin-bottom: 12px; /* Match the gap from form's flex layout */
+}
+
+.date-time-picker .MuiFormControl-root {
+  width: 100%;
+}
+
+/* ReservationForm.css */
+.date-time-input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #87CEEB; /* Sky blue border */
+  background-color: #1A1A1A; /* Black background */
+  font-size: 1rem;
+  color: #FFFFFF; /* White text */
+  width: 100%; /* Ensure full width like other inputs */
+  margin-bottom: 12px; /* Match form gap */
+}
+
+.date-time-input:focus {
+  outline: none;
+  border-color: #ADD8E6; /* Lighter sky blue on focus */
+  box-shadow: 0 0 5px rgba(135, 206, 235, 0.5);
+}
+
+/* Optional: Customize the date/time picker appearance */
+.date-time-input::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Makes the calendar/time icon white */
+  cursor: pointer;
+}

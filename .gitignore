@@ -1,0 +1,32 @@
+# Node.js/NPM
+node_modules/           # Ignore installed dependencies
+npm-debug.log           # Debug logs from npm
+*.log                   # Other log files
+package-lock.json       # Optional: Ignore lockfile if you prefer manual dependency management
+yarn.lock               # If you're not using Yarn, this can stay
+
+# Build Output
+dist/                   # Common build output directory
+build/                  # Alternative build output directory
+*.min.js                # Minified JavaScript files
+*.map                   # Source maps
+
+# Environment Variables
+.env                    # Environment config files (e.g., API keys)
+.env.local              # Local environment overrides
+.env.development        # Development-specific env files
+.env.production         # Production-specific env files
+
+# OS Files
+.DS_Store               # macOS Finder metadata
+Thumbs.db               # Windows thumbnail cache
+
+# Editor/IDEs
+.vscode/                # VS Code settings
+.idea/                  # JetBrains IDEs (e.g., WebStorm)
+*.sublime-workspace     # Sublime Text workspace files
+
+# Miscellaneous
+*.bak                   # Backup files
+*.swp                   # Vim swap files
+coverage/               # Test coverage reports

@@ -1,0 +1,96 @@
+/* ReservationList.css */
+.list-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #1A1A1A; /* Black background */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.list-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  color: #87CEEB; /* Sky blue */
+}
+
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  color: #FFFFFF; /* White text */
+}
+
+.reservation-table th,
+.reservation-table td {
+  padding: 12px;
+  border: 1px solid #4B5E6A; /* Darker border matching theme */
+}
+
+.reservation-table th {
+  background-color: #2D3748; /* Dark gray-blue header */
+  color: #87CEEB; /* Sky blue text */
+}
+
+.reservation-table input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #87CEEB; /* Sky blue border */
+  border-radius: 4px;
+  background-color: #1A1A1A; /* Black background */
+  color: #FFFFFF; /* White text */
+}
+
+.reservation-table input:focus {
+  outline: none;
+  border-color: #ADD8E6; /* Lighter sky blue on focus */
+  box-shadow: 0 0 5px rgba(135, 206, 235, 0.5);
+}
+
+.btn {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #87CEEB; /* Sky blue */
+  color: #1A1A1A; /* Black text */
+}
+
+.delete-btn {
+  background-color: #FF6B6B; /* Softer red that complements theme */
+  color: #1A1A1A; /* Black text */
+}
+
+.save-btn {
+  background-color: #87CEEB; /* Sky blue */
+  color: #1A1A1A; /* Black text */
+}
+
+.cancel-btn {
+  background-color: #4B5E6A; /* Dark gray-blue */
+  color: #FFFFFF; /* White text */
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.edit-btn:hover,
+.save-btn:hover {
+  background-color: #ADD8E6; /* Lighter sky blue on hover */
+}
+
+.delete-btn:hover {
+  background-color: #FF8787; /* Lighter red on hover */
+}
+
+.cancel-btn:hover {
+  background-color: #647A8C; /* Lighter gray-blue on hover */
+}
