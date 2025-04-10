@@ -1,6 +1,4 @@
-Here's an enhanced, attractive README file for "Dhivya Reservations" with improved formatting, emojis, and a polished structure. It uses Markdown to ensure it renders beautifully on GitHub or other platforms, incorporating your directory details, screenshots, setup steps, and a dedicated contact section.
 
-```markdown
 # 🌟 Dhivya Reservations
 
 Welcome to **Dhivya Reservations** – a sleek and modern reservation management system crafted with React on the frontend and a robust backend service. Whether you're booking a spot or managing existing reservations, this app delivers a seamless experience with a stunning sky blue and black theme.
@@ -11,16 +9,7 @@ Welcome to **Dhivya Reservations** – a sleek and modern reservation management
 
 Here's a snapshot of the project structure as of **April 10, 2025**:
 
-```
-10-04-2025  08:05    <DIR>          .
-09-04-2025  15:00    <DIR>          ..
-10-04-2025  07:04    <DIR>          backend
-10-04-2025  08:04            45,612 create reservations.png
-09-04-2025  15:57    <DIR>          frontend
-10-04-2025  08:05            57,632 view reservations.png
-               2 File(s)        103,244 bytes
-               4 Dir(s)  78,422,806,528 bytes free
-```
+
 
 - **`backend/`**: Powers the reservation system with server-side logic.
 - **`frontend/`**: The React-based UI for an intuitive user experience.
